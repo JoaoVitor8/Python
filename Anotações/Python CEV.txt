@@ -3,8 +3,6 @@ Tipos Primitivos: int   = Números Inteiros
     AULA 06       bool  = True / False
                   str   = Entre ' '
 
-
-
 Operadores Aritméticos: +  = Adição            Ordem de Precedência: 1° ()
                         -  = Subtração                               2° **
                         *  = Multiplicação                           3° *, /, //, %
@@ -13,16 +11,12 @@ Operadores Aritméticos: +  = Adição            Ordem de Precedência: 1° ()
                         // = Divisão Inteira
                         %  = Resto da Divisão
 
-
-
 Manipulando Texto:   Análize: len()   = Comprimento   Transformação: replace()    = Trocar
                               count() = Contar                       upper()      = Maiúsculo
                               find()  = Encontrar                    lower()      = Minúsculo
    AULA 09                                                           capitalize() = Deixa só a 1° letra em maiúsculo
                      Divisão: split()                                title()      = Todas as primeiras letras em maiúsculo
                      Junção: join()                                  strip()      = Renoves os espaços inuteis
-
-
 
 Cores: /033[Istilo: 0 = Nada      ;Texto: 30 ;Fundo: 40 m  = Branco
                     1 = Negrito           31         41    = Vermelho
@@ -32,3 +26,4 @@ Cores: /033[Istilo: 0 = Nada      ;Texto: 30 ;Fundo: 40 m  = Branco
                                           35         45    = Roxo
                                           36         46    = Ciano
                                           37         47    = cinza
+

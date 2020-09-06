@@ -27,3 +27,23 @@ Cores: /033[Istilo: 0 = Nada      ;Texto: 30 ;Fundo: 40 m  = Branco
                                           36         46    = Ciano
                                           37         47    = cinza
 
+Estruturas de Repetição: for ... in ...:
+                         if, elif, else
+   Mundo02               while, while True
+
+
+Tuplas: Tuplas são estruturas de variáveis compostas onde múltiplas informações são guardadas em grupo na memória.
+        Tuplas possuem as seguintes características
+
+        São definidas por ()
+        São imutáveis
+
+        Ex: lanche = ("Hamburger", "Batata", "Cenoura", "Banana")
+
+        Imprimindo uma tupla inteira
+        print(lanche)
+
+        Imprimindo um elemento da tupla   #Lembrar que indices do python começam em 0
+        Ex: print(lanche[número])
+
+

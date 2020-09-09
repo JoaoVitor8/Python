@@ -32,11 +32,10 @@ Estruturas de Repetição: for ... in ...:
    Mundo02               while, while True
 
 
-Tuplas: Tuplas são estruturas de variáveis compostas onde múltiplas informações são guardadas em grupo na memória.
-        Tuplas possuem as seguintes características
+Tuplas: São estruturas de variáveis compostas onde múltiplas informações são guardadas em grupo na memória.
 
-        São definidas por ()
-        São imutáveis
+        Possuem as seguintes características:  São definidas por ()
+                                               São imutáveis
 
         Ex: lanche = ("Hamburger", "Batata", "Cenoura", "Banana")
 
@@ -44,6 +43,27 @@ Tuplas: Tuplas são estruturas de variáveis compostas onde múltiplas informaç
         print(lanche)
 
         Imprimindo um elemento da tupla   #Lembrar que indices do python começam em 0
-        Ex: print(lanche[número])
+        print(lanche[número])
+
+
+lista: Possuem as seguintes características:  São definidas por []
+                                              São mutáveis
+
+       Exs:
+       lanche.append('valor') #inclui valor na última posição
+
+       lanche.insert(0,'valor') #substitui valor na posição '0'
+
+       del lanche[3]
+       lanche.pop() #elimina o último e reposiciona os valores na lista
+
+       if 'valor' in lanche: #evita msg de erro
+          lanche.remove('valor') #evita msg de erro
+
+       lista2 = list(range(4,11)) #lista2 = [4,5,6,7,8,9,10]
+
+       lista3 = [8,5,4,3,0]
+       lista3.sort() #ordenar valores [0,3,4,5,8]
+       lista3.sort(reverse=True) #ordenar valores de forma inversa [8,5,4,3,0]
 
 

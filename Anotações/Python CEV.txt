@@ -48,6 +48,7 @@ Tuplas: São estruturas de variáveis compostas onde múltiplas informações s�
 
 lista: Possuem as seguintes características:  São definidas por []
                                               São mutáveis
+       É possivel colocar lista dentro de lista
 
        Exs:
        lanche.append('valor') #inclui valor na última posição

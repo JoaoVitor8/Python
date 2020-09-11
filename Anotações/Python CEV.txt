@@ -32,6 +32,9 @@ Estruturas de Repetição: for ... in ...:
    Mundo02               while, while True
 
 
+
+Estruturas Compostas:
+
 Tuplas: São estruturas de variáveis compostas onde múltiplas informações são guardadas em grupo na memória.
 
         Possuem as seguintes características:  São definidas por ()

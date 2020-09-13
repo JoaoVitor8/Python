@@ -33,7 +33,7 @@ Estruturas de Repetição: for ... in ...:
 
 
 
-Estruturas Compostas:
+Estruturas Compostas: Mundo03
 
 Tuplas: São estruturas de variáveis compostas onde múltiplas informações são guardadas em grupo na memória.
 
@@ -53,7 +53,7 @@ lista: Possuem as seguintes características:  São definidas por []
                                               São mutáveis
        É possivel colocar lista dentro de lista
 
-       Exs:
+
        lanche.append('valor') #inclui valor na última posição
 
        lanche.insert(0,'valor') #substitui valor na posição '0'
@@ -69,5 +69,25 @@ lista: Possuem as seguintes características:  São definidas por []
        lista3 = [8,5,4,3,0]
        lista3.sort() #ordenar valores [0,3,4,5,8]
        lista3.sort(reverse=True) #ordenar valores de forma inversa [8,5,4,3,0]
+
+
+Dicionários: Possuem as seguintes características: É uma variável composta igual as listas e as tuplas, porém com os indíces personalizáveis formados por um par de chave-valor,  e quando você fornece uma chave, Python retorna o valor associado daquela chave.
+                                                   São definidas por {}
+
+             Usa-se dois pontos para conectar a chave com o seu valor, e aspas simples ou duplas para separar individualmente um par de chave-valor. 
+                Exemplo: dados = {'nome': 'Pedro', 'idade': 25}
+
+             Para acessar o valor associado a uma chave individual, dê o nome do dicionário e então coloque a chave em um par de colchetes
+                Exemplo:print(dados['nome'])  # Pedro
+
+             Para adicionar um novo par de chave-valor no final de um dicionário existente, dê o nome do dicionário e a nova chave em um par de colchete e use o sinal de igual para colocar o novo valor. Também irá funcionar para um dicionário vazio do mesmo jeito.
+                Exemplo: dados = {'nome': 'Pedro', 'idade': 25}
+                         dados['sexo'] = 'M'
+
+             A estrutura de um dicionário é divido em três partes:
+              A primeira são os valores, que podem ser acessados através do método interno dict.values(), eles são os valores das chaves.
+              A segunda são as chaves, que podem ser acessadas através do método interno dict.keys(), é por elas que você acessa os valores. 
+              E por último os itens, que podem ser acessados através do método interno dict.items(), são todos os pares de chave-valor do dicionário.
+
 
 

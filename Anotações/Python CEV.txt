@@ -150,5 +150,6 @@ FUNÇÃO: São blocos nomeados de um código designado para fazer um trabalho em
 
         help()               = Mostra as informações do comando
         docstrings()         = Permite que você crie um manual sobre o comando criado por você
-        Parâmetro Opcional() = def exemplo(a = AlgumaCoisa, b = AlgumaCoisa, ......)
-        Escopo De Variável() = 
+        Parâmetro Opcional   = def exemplo(a = AlgumaCoisa, b = AlgumaCoisa, ......)
+        Escopo De Variável   = Variável Global, Variável Local
+        Retorno Valores      = return

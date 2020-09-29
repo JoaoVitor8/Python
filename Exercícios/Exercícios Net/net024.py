@@ -1,4 +1,4 @@
-#Faça um Programa que leia três números e mostre o maior deles.
+#2-6 Faça um Programa que leia três números e mostre o maior deles.
 
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))

@@ -1,4 +1,4 @@
-#Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+#1-6 Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 
 r = int(input('Informe o raio do ciculo: '))
 

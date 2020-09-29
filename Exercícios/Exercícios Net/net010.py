@@ -1,4 +1,4 @@
-#Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit
+#1-10 Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit
 #     C = 5 * ((F-32) / 9).
 
 tc = float(input('Informe uma temperatura em Celsius: '))

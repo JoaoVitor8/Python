@@ -1,0 +1,9 @@
+#2-22 Faça um Programa que peça um número inteiro e determine se ele é par ou impar.
+#Dica: utilize o operador módulo (resto da divisão).
+
+num = int(input('Informe um número: '))
+
+if num % 2 == 0:
+    print('Esse número é par')
+else:
+    print('Esse número é impar')
